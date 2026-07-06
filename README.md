@@ -1,6 +1,6 @@
 # Texas Web - Real Estate Website
 
-A modern and responsive real estate website built with HTML, CSS, and JavaScript.
+A modern and responsive real estate website built with HTML and CSS.
 
 ## 📋 About The Project
 Texas Web is a real estate website designed to help people find their dream homes across Texas.
