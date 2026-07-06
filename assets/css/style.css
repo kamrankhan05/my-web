@@ -198,3 +198,39 @@
         font-size: 16px;
     }
 }
+
+/* Services Section */
+
+#services {
+  padding: 60px 10%;
+  background-color: white;
+  text-align: center;
+  
+}
+
+.services-container {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.service-item {
+  background-color:rgb(253, 243, 234) ;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+}
+.service-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+.service-item h3{
+  color: #ff7b00;
+}
+
+.service-item p {
+  color: #555;
+  margin-top: 15px;
+  line-height: 1.6;
+}
