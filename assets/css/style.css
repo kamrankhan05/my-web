@@ -63,6 +63,8 @@
 #home button:hover {
   background-color: #f7bd7f;
  } 
+
+
   /* properties */
   #properties {
     padding: 60px 10%;
@@ -100,4 +102,99 @@
   font-size: 16px;
   margin: 0 15px 15px;
   color: #777;
+}
+
+/*  */
+/* About Section */
+/*  */
+
+#about {
+  padding: 60px 10%;
+  background-color: #eaf1f8;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.about-content {
+  flex: 1;
+  min-width: 300px;
+
+}
+
+.about-content h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 17px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 15px;
+
+}
+
+.about-content ul {
+  list-style: none;
+  margin: 25px 0;
+  padding: 0;
+}
+
+.about-content ul li {
+    font-size: 17px;
+    color: #444;
+    margin-bottom: 12px;
+}
+
+.about-content button {
+    padding: 12px 28px;
+    background-color: #b8860b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.about-content button:hover {
+    background-color: #8b6508;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content h2 {
+        font-size: 30px;
+    }
+
+    .about-content p,
+    .about-content ul li {
+        font-size: 16px;
+    }
 }
